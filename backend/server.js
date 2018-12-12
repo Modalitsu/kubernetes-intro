@@ -14,7 +14,7 @@ app.get('/api/me', (request, response) => {
 });
 
 app.get('/api/work', (request, response) => {
-	response.send('[{"yearFrom": "2010", "yearTo": "2013", "place": "Haugli Bakeri", "comment": "Bakte masse brød"}, {"yearFrom": "2015", "yearTo": "2018", "place": "Teknik Magasinet", "comment": "Salesman"}]');
+	response.send('[{"yearFrom": "2010", "yearTo": "2013", "place": "Haugli Bakeri", "comment": "Bakte masse brød"}, {"yearFrom": "2015", "yearTo": "2018", "place": "Teknik Magasinet", "comment": "Salesman master chief"}]');
 	logger.info('Responded to GET request on /api/work')
 });
 
