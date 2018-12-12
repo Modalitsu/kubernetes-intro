@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/cubes-225317/frontend:cv-frontend-2git
+        image: gcr.io/cubes-225317/frontend:cv-frontend-1git
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
