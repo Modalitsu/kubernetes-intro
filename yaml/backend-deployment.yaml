@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/cubes-225317/frontend:cv-backend-2git
+        image: gcr.io/cubes-225317/backend:cv-backend-2git
         ports:
         - containerPort: 5000
